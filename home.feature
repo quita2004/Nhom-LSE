@@ -1,23 +1,15 @@
-Feature: Continue the learn
+Feature: Learn English
     As a user
-    I want to continue the lesson
-    In order to move to the new word page
+    I want to move to the page to learn English
+    In order to learn English
 
-Background: 
-    Given on the home page
-
-Scenario: Continue learning new words
-    When I click in "Tiep tuc hoc"
-    Then I will be redirected to the new vocabulary
-
-Scenario: Review the words learned
-    When I click in "On lai cac tu da hoc"
+Scenario: 
+	Given I am on the home page
+    When I click in "Tiếp tục học"
+    Then I will be redirected to the new words page
+    When I click in "Ôn lại các từ đã học"
     Then I will be redirected to review the words I have learned
-
-Scenario: Start over
-    When I click in "Hoc lai tu dau"
+    When I click in "Học lại từ đầu"
     Then I will be learning again from the beginning
-
-Scenario: Go on to next level
-    When I click on a level at the bottom of the home page
-    Then I will be going to the corresponding level
+    When I click on level 2 at the bottom of the home page
+    Then I will be going to the level 2
