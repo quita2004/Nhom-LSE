@@ -12,6 +12,10 @@ Scenario:
 	When I click in answer A or C or D
 	Then I should see the notification "Sai"
 	 And I will be reviewing from there
+	 
+Scenario:
+	Given I am on the test multiple choice page
+	 And Hint is "connect"
 	When I click in "Hiện từ gợi ý"
 	Then I will see the "connect" line appears
 	

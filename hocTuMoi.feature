@@ -12,5 +12,7 @@ Scenario:
 	 And click in "Lưu"
     Then A warning line will appear "Bạn không được để trống!"
 	 And Nothing is save
+
+Scenario:
     When I click in "Tiếp theo"
     Then I will learn the next word or do the tests

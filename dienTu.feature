@@ -5,7 +5,6 @@ Feature: Take a test
 Scenario:
 	Given I am on the word fill page
 	 And the correct answer is "connect"
-	 And Have a suggestion
 	When I filled in "connect"
 	 And Click in "Tiếp theo"
 	Then I will be go to the next test
@@ -13,6 +12,10 @@ Scenario:
 	 And Click in "Tiếp theo"
 	Then I should see the notification "Sai"
 	 And I will be reviewing from there
+
+Scenario:
+	Given I am on the test multiple choice page
+	 And Hint is "connect"
 	When I click in "Hiện từ gợi ý"
 	Then I will see the "connect" line appears
 	
