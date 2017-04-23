@@ -2,6 +2,7 @@ Feature: Truy cập các chức năng từ trang chủ
     As a người dung
     I want to học tiếng Anh
     In order to học từ mới và làm các bài liểm tra
+	
 
 Scenario: Tôi chọn mục "Học từ mới"
     Given Tôi đang ở màn hình trang chủ

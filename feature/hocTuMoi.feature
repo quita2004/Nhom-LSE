@@ -8,6 +8,8 @@ Scenario:
 	 And Màn hình hiện từ "abandon"
 	When Tôi ấn nút "Tiếp theo"
 	Then Tôi thấy màn hình sẽ hiện từ "abandoned"
+	
+	
 
 Scenario:
 	Given Tôi đang ở màn hình học từ mới
