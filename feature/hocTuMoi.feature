@@ -14,8 +14,3 @@ Scenario:
 	 And Tôi thấy màn hình đang hiện từ "ability"
 	When Tôi bấm "Làm bài kiểm tra"
 	Then Tôi sẽ thấy màn hình học từ mới chuyển sang màn hình làm bài kiểm tra trắc nghiệm
-
-Scenario:
-    Given Tôi đang ở màn hình học từ mới
-    When Tôi ấn nút "Home"
-    Then Tôi sẽ thấy màn hình chuyển về trang chủ
