@@ -13,6 +13,8 @@ Scenario: Chọn đúng
 	When Tôi ấn vào nút "Tiếp theo"
 	Then Tôi thấy nàm hình chuyển sang từ "abandoned"
 	 
+	 
+	 
 Scenario: Tôi chọn sai
 	Given Tôi đang ở màn hình trắc nghiệm
 	 And Màn hình hiện từ "abandon"

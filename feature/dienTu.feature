@@ -12,13 +12,13 @@ Scenario: Tôi điền đúng
 	When Tôi ấn nút "Tiếp theo"
 	Then Tôi sẽ được chuyển sang từ "bị bỏ rơi, bị ruồng bỏ"
 
-
 Scenario: Tôi điền sai
 	Given Tôi đang ở màn hình điền từ
 	 And màn hình hiện từ "bỏ, từ bỏ"
 	When Tôi điền vào ô trống từ "abandn"
 	Then Tôi không thấy màn hình hiện ra cái gì cả
 
+	
 Scenario: Tôi điền đúng từ cuối cùng
 	Given Tôi đang ở màn hình điền từ
 	 And màn hình hiện từ "khả năng, năng lực"
