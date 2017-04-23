@@ -1,0 +1,23 @@
+
+<div>
+	<h2 class="bg-warning" ng-show="sai">Sai rồi. Chọn lại nào</h2>
+	<h2 class="bg-success" ng-show="dung">Đúng rồi. Chuyển sang câu tiếp nào</h2>
+
+	<p>Chọn nghĩa của từ này: </p>
+	<h3>{{ tu }}</h3>
+	<br>
+	<div class="row">
+		<a href="" class="btn btn-lg btn-default " ng-click="chon_dap_an_1()">1.{{ nghia1}}</a>
+		<a href="" class="btn btn-lg btn-default " ng-click="chon_dap_an_2()">2.{{ nghia2 }}</a>
+	</div>
+	<br>
+	<div class="row">
+		<a href="" class="btn btn-lg btn-default" ng-click="chon_dap_an_3()">3.{{ nghia3 }}</a>
+		<a href="" class="btn btn-lg btn-default" ng-click="chon_dap_an_4()">4.{{ nghia4 }}</a>
+	</div>
+	<br>
+	<div ng-show="dung">
+		<a href="" class="btn btn-primary btn-default" ng-click="click()" ng-show="soTuDaHoc % 3 !== 0" ><span class="glyphicon glyphicon-saved"></span>Tiếp theo</a>
+		<a href="#/dien-tu" class="btn btn-primary btn-default" ng-show="soTuDaHoc % 3 === 0" ><span class="glyphicon glyphicon-saved"></span>Tiếp theo</a>
+	</div>
+</div>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="vi" ng-app="myapp">
+<head>
+	<title>Học tiếng anh-3000 từ vựng phổ biến</title>
+	<meta charset="utf-8">
+
+	<!-- Load Bootstrap CDN -->
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+	<!-- Load AngularJs CDN -->
+	<script type="text/javascript" src="//code.angularjs.org/1.4.9/angular.min.js"></script>
+	<script type="text/javascript" src="//code.angularjs.org/1.4.9/angular-route.min.js"></script>
+	<script type="text/javascript" src="//code.angularjs.org/1.4.9/angular-resource.min.js"></script>
+
+	<script type="text/javascript" src="assets/JS/app.js"></script>
+
+	<script type="text/javascript" src="assets/JS/service/svSTDH.js"></script>
+	<script type="text/javascript" src="assets/JS/service/svTuMoi.js"></script>
+	
+	<script type="text/javascript" src="assets/JS/controller/homeController.js"></script>
+	<script type="text/javascript" src="assets/JS/controller/tuMoiController.js"></script>
+	<script type="text/javascript" src="assets/JS/controller/tracNghiemController.js"></script>
+	<script type="text/javascript" src="assets/JS/controller/dienTuController.js"></script>
+	<script type="text/javascript" src="assets/JS/controller/onLaiController.js"></script>
+
+</head>
+<body>
+	<header>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#/">3000 từ tiếng Anh thông dụng</a>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#/" class=""><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+	<section>
+		<main>
+			<div class="container jumbotron text-center">
+				<div ng-view>Loading...</div>
+			</div>
+		</main>
+	</section>
+	<footer>
+		<a href="https://www.facebook.com/ta.ngocqui">
+		<p class="text-center">&copy; Team LSE, 2017 </p></a>
+	</footer>
+</body>
