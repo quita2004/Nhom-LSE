@@ -16,7 +16,7 @@ Hiện nay, việc học tiếng Anh là rất phổ biến và quan trọng tro
 
 ### 1.2 Các thành viên trong nhóm LSE
 
-Nhóm gồm 4 thành viên:
+Nhóm gồm 5 thành viên:
 
 * Tạ Ngọc Quí
 
